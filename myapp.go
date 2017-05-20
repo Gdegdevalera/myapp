@@ -48,7 +48,7 @@ func info(c *router.Control) {
 }
 
 func root(c *router.Control) {
-	c.Code(http.StatusOK).Body(fmt.Sprintf("myapp v%s", version.RELEASE))
+	c.Code(http.StatusOK).Body(fmt.Sprintf("my great app v%s", version.RELEASE))
 }
 
 func main() {
